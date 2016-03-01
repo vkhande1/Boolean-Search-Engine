@@ -70,9 +70,7 @@ public class QueryUserInterface {
 		List<List<String>> documentTitleList = getAllDocumentTitleForToken(queryTokens);
 		Set<String> andSet = new HashSet<String>();
 		for (List<String> docTitleList : documentTitleList) {
-			// for (String title : docTitleList) {
 			andSet.addAll(docTitleList);
-			// }
 		}
 		for (List<String> docTitleList : documentTitleList) {
 			andSet.retainAll(docTitleList);
@@ -113,8 +111,7 @@ public class QueryUserInterface {
 				docName.add(pos.getDocumentId() + "  "
 						+ docTitle.get(pos.getDocumentId()));
 				
-				// System.out.println(pos.getDocumentId());
-				// System.out.println(docTitle.get(pos.getDocumentId()));
+				
 			}
 
 		} else {docName.add("No Results for this Query");}
