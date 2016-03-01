@@ -24,7 +24,7 @@ When the word ends in a period, it was challenge to decide whether it should be 
 character of an abbreviation, or be deleted since it indicates the end of a sentence. 
 Stored words in lower case and sorted order. Tokens with Special character are on the Top of the list.
 
-I have attached sample HTML Files and output files for reference.
+Sample HTML Files and output files are attached for reference.
 
 
 ########################## Indexing, Dictionary, Posting List ##############################
@@ -60,7 +60,7 @@ Doc 2 body = German occupation movie.
  
 ![image](https://cloud.githubusercontent.com/assets/11687081/11132522/578979ea-895e-11e5-8613-52f61394f56b.png) 
 
-I have attached sample HTML File and output file for reference.
+Sample HTML Files and output files are attached for reference.
 
 ########################## Query User Interface ##############################
 
@@ -94,4 +94,4 @@ The output of the program will be a file called output.txt.  Line 1 will contain
 of documents retrieved, will contain: The document number, and the title.  The output is in order by non decreasing document
 numbers. If the query did not retrieve any documents the program will print NO RESULTs in the line following the query.
 
-I have attached sample HTML File and output file for reference.
+Sample HTML Files and output files are attached for reference.
